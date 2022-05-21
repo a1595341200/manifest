@@ -4,4 +4,5 @@
     <default revision="main" remote="origin" sync-j="6" />
      <project name="gdbus" path="gdbus" revision="main" />
      <project name="dbus" path="dbus" revision="main" />
+     <project name="C-" path="C++" revision="master" />
 </manifest>
