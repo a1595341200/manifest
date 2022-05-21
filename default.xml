@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="origin" fetch=".." review="https://github.com/a1595341200/" />
+    <default revision="main" remote="origin" sync-j="6" />
+     <project name="gdbus" path="gdbus" revision="main" />
+     <project name="dbus" path="dbus" revision="main" />
+</manifest>
