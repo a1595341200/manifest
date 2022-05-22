@@ -6,4 +6,5 @@
      <project name="dbus" path="dbus" revision="main" />
      <project name="C-" path="C++" revision="master" />
      <project name="python" path="python" revision="main" />
+     <project name="vue" path="vue" revision="main" />
 </manifest>
