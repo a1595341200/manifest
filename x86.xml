@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="me" fetch="git@github.com:a1595341200/"/>
+    <remote name="github" fetch="https://github.com/"/>
+    <default revision="main" remote="origin" sync-j="4" />
+    <!-- clone-depth = "1" -->
+    <project name="cplusplus" path="cplusplus" remote="me" revision="repo" />
+    <project name="cplusplus/build_install" path="build_install" remote="me" revision="build_install_x86" />
+    <project name="cplusplus/submodule/algorithmBase" path="algorithmBase" remote="me" revision="main" />
+    <project name="cplusplus/submodule/data_plot" path="data_plot" remote="me" revision="main" />
+    <project name="cplusplus/submodule/eigen3.4" path="eigen3.4" remote="me" revision="main" />
+
+    <project name="cplusplus/submodule/glog" path="google/glog" remote="github" revision="v0.6.0" />
+    <project name="cplusplus/submodule/benchmark" path="google/benchmark" remote="github" revision="main" />
+    <project name="cplusplus/submodule/backward-cpp" path="bombela/backward-cpp" remote="github" revision="masters" />
+    <project name="cplusplus/submodule/fmt" path="fmtlib/fmt" remote="github" revision="release" />
+    <project name="cplusplus/submodule/nlohmann" path="nlohmann/json" remote="github" revision="develop" />
+    <project name="cplusplus/submodule/sml" path="boost-ext/sml" remote="github" revision="master" />
+    <project name="cplusplus/submodule/msgpack-c" path="msgpack/msgpack-c" remote="github" revision="cpp-6.1.1" />
+
+</manifest>
