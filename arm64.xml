@@ -2,7 +2,7 @@
 <manifest>
     <remote name="me" fetch="git@github.com:a1595341200/"/>
     <remote name="github" fetch="https://github.com/"/>
-    <default revision="main" remote="origin" sync-j="4" />
+    <default revision="main" remote="github" sync-j="4" />
     <!-- clone-depth = "1" -->
     <project name="cplusplus" path="cplusplus" remote="me" revision="repo" />
     <project name="cplusplus/build_install" path="build_install" remote="me" revision="build_install_arm64" />
