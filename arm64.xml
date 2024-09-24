@@ -9,6 +9,7 @@
     <project path="cplusplus/submodule/algorithmBase" name="algorithmBase" remote="me" revision="main" />
     <project path="cplusplus/submodule/data_plot" name="data_plot" remote="me" revision="main" />
     <project path="cplusplus/submodule/eigen3.4" name="eigen3.4" remote="me" revision="main" />
+    <project path="cplusplus/framework" name="framework" remote="me" revision="main" />
 
     <project path="cplusplus/submodule/glog" name="google/glog" remote="github" revision="refs/tags/v0.6.0" />
     <project path="cplusplus/submodule/benchmark" name="google/benchmark" remote="github" revision="main" />
