@@ -18,5 +18,7 @@
     <project path="cplusplus/submodule/nlohmann" name="nlohmann/json" remote="github" revision="develop" />
     <project path="cplusplus/submodule/sml" name="boost-ext/sml" remote="github" revision="master" />
     <project path="cplusplus/submodule/msgpack-c" name="msgpack/msgpack-c" remote="github" revision="refs/tags/cpp-6.1.1" />
+    <project path="cplusplus/submodule/Sophus" name="strasdat/Sophus" remote="github" revision="refs/tags/1.22.10" clone-depth = "1" />
+    <project path="cplusplus/submodule/g2o" name="RainerKuemmerle/g2o" remote="github" revision="refs/tags/20230806_git" clone-depth = "1" />
 
 </manifest>
